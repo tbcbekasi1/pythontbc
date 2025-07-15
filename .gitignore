@@ -18,8 +18,8 @@ __pycache__/
 .ipynb_checkpoints
 
 # Data
-*.csv
-!data/*.csv  # jika kamu ingin commit file tertentu
+# *.csv
+# !data/*.csv  # jika kamu ingin commit file tertentu
 
 # Logs and others
 *.log

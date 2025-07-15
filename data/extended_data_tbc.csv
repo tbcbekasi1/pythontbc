@@ -1,0 +1,121 @@
+No;Nama RS;Wilayah;Nama Dokter;Penyakit;Jumlah Kasus;Tahun
+1;RSUD Bekasi;Bekasi Timur;dr. Andi Saputra;TBC;128;2022
+2;RS Sentra Medika Cikarang;Cikarang;dr. Maya Kurniawati;Pneumonia;95;2022
+3;RS Bhakti Kartini;Bekasi Barat;dr. Rio Nugroho;TBC;110;2022
+4;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Lestari Dewi;Pneumonia;87;2022
+5;RS Harapan Mulia;Bekasi Selatan;dr. Ahmad Fadhil;TBC;102;2022
+6;RSUD Bekasi;Bekasi Timur;dr. Andi Saputra;TBC;135;2023
+7;RS Sentra Medika Cikarang;Cikarang;dr. Maya Kurniawati;Pneumonia;110;2023
+8;RS Bhakti Kartini;Bekasi Barat;dr. Rio Nugroho;Pneumonia;93;2023
+9;RS Mitra Keluarga Bekasi Timur;Bekasi Timur;dr. Lestari Dewi;TBC;140;2023
+10;RS Harapan Mulia;Bekasi Selatan;dr. Ahmad Fadhil;Pneumonia;105;2023
+11;RSUD Bekasi;Bekasi Timur;dr. Andi Saputra;TBC;144;2024
+12;RS Sentra Medika Cikarang;Cikarang;dr. Maya Kurniawati;Pneumonia;143;2024
+13;RS Bhakti Kartini;Bekasi Barat;dr. Rio Nugroho;TBC;105;2024
+14;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Lestari Dewi;Pneumonia;126;2024
+15;RS Harapan Mulia;Bekasi Selatan;dr. Ahmad Fadhil;TBC;113;2024
+16;RSUD Bekasi;Bekasi Timur;dr. Andi Saputra;TBC;117;2025
+17;RS Sentra Medika Cikarang;Cikarang;dr. Maya Kurniawati;Pneumonia;103;2025
+18;RS Bhakti Kartini;Bekasi Barat;dr. Rio Nugroho;Pneumonia;148;2025
+19;RS Mitra Keluarga Bekasi Timur;Bekasi Timur;dr. Lestari Dewi;TBC;105;2025
+20;RS Harapan Mulia;Bekasi Selatan;dr. Ahmad Fadhil;Pneumonia;93;2025
+21;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Ahmad Fadhil;TBC;151;2026
+22;RS Harapan Mulia;Bekasi Selatan;dr. Maya Kurniawati;TBC;154;2024
+23;RS Harapan Mulia;Bekasi Selatan;dr. Lestari Dewi;TBC;82;2026
+24;RS Sentra Medika Cikarang;Cikarang;dr. Lestari Dewi;Pneumonia;81;2025
+25;RS Harapan Mulia;Bekasi Selatan;dr. Andi Saputra;TBC;101;2026
+26;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Andi Saputra;TBC;138;2023
+27;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Lestari Dewi;TBC;141;2024
+28;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Lestari Dewi;Pneumonia;82;2026
+29;RS Bhakti Kartini;Bekasi Barat;dr. Ahmad Fadhil;TBC;97;2025
+30;RSUD Bekasi;Bekasi Timur;dr. Lestari Dewi;Pneumonia;88;2023
+31;RS Harapan Mulia;Bekasi Selatan;dr. Maya Kurniawati;Pneumonia;139;2025
+32;RS Harapan Mulia;Bekasi Selatan;dr. Rio Nugroho;Pneumonia;115;2023
+33;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Maya Kurniawati;TBC;133;2023
+34;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Ahmad Fadhil;Pneumonia;123;2023
+35;RS Sentra Medika Cikarang;Cikarang;dr. Lestari Dewi;Pneumonia;127;2025
+36;RSUD Bekasi;Bekasi Timur;dr. Ahmad Fadhil;TBC;132;2023
+37;RSUD Bekasi;Bekasi Timur;dr. Lestari Dewi;Pneumonia;120;2026
+38;RS Harapan Mulia;Bekasi Selatan;dr. Andi Saputra;TBC;88;2022
+39;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Rio Nugroho;TBC;87;2024
+40;RS Bhakti Kartini;Bekasi Barat;dr. Andi Saputra;Pneumonia;120;2025
+41;RSUD Bekasi;Bekasi Timur;dr. Lestari Dewi;TBC;127;2026
+42;RS Bhakti Kartini;Bekasi Barat;dr. Lestari Dewi;Pneumonia;114;2022
+43;RS Bhakti Kartini;Bekasi Barat;dr. Ahmad Fadhil;Pneumonia;82;2022
+44;RS Harapan Mulia;Bekasi Selatan;dr. Maya Kurniawati;TBC;93;2024
+45;RSUD Bekasi;Bekasi Timur;dr. Maya Kurniawati;TBC;156;2024
+46;RSUD Bekasi;Bekasi Timur;dr. Lestari Dewi;Pneumonia;83;2026
+47;RS Harapan Mulia;Bekasi Selatan;dr. Rio Nugroho;TBC;92;2024
+48;RS Bhakti Kartini;Bekasi Barat;dr. Lestari Dewi;Pneumonia;124;2022
+49;RS Harapan Mulia;Bekasi Selatan;dr. Lestari Dewi;Pneumonia;123;2025
+50;RS Mitra Keluarga Bekasi Timur;Bekasi Timur;dr. Rio Nugroho;TBC;141;2022
+51;RSUD Bekasi;Bekasi Timur;dr. Andi Saputra;Pneumonia;156;2022
+52;RS Bhakti Kartini;Bekasi Barat;dr. Rio Nugroho;TBC;116;2022
+53;RS Bhakti Kartini;Bekasi Barat;dr. Maya Kurniawati;TBC;158;2024
+54;RS Mitra Keluarga Bekasi Timur;Bekasi Timur;dr. Andi Saputra;TBC;141;2022
+55;RS Sentra Medika Cikarang;Cikarang;dr. Lestari Dewi;TBC;118;2023
+56;RS Bhakti Kartini;Bekasi Barat;dr. Andi Saputra;TBC;135;2022
+57;RS Bhakti Kartini;Bekasi Barat;dr. Andi Saputra;Pneumonia;133;2026
+58;RSUD Bekasi;Bekasi Timur;dr. Andi Saputra;TBC;81;2026
+59;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Maya Kurniawati;Pneumonia;111;2025
+60;RS Bhakti Kartini;Bekasi Barat;dr. Rio Nugroho;TBC;117;2026
+61;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Maya Kurniawati;Pneumonia;90;2022
+62;RSUD Bekasi;Bekasi Timur;dr. Lestari Dewi;Pneumonia;159;2026
+63;RS Bhakti Kartini;Bekasi Barat;dr. Lestari Dewi;TBC;115;2024
+64;RS Sentra Medika Cikarang;Cikarang;dr. Rio Nugroho;Pneumonia;99;2025
+65;RSUD Bekasi;Bekasi Timur;dr. Andi Saputra;TBC;118;2023
+66;RSUD Bekasi;Bekasi Timur;dr. Rio Nugroho;TBC;129;2023
+67;RS Bhakti Kartini;Bekasi Barat;dr. Lestari Dewi;TBC;139;2022
+68;RS Sentra Medika Cikarang;Cikarang;dr. Andi Saputra;TBC;91;2026
+69;RS Harapan Mulia;Bekasi Selatan;dr. Rio Nugroho;TBC;98;2024
+70;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Andi Saputra;Pneumonia;154;2022
+71;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Lestari Dewi;Pneumonia;104;2026
+72;RS Sentra Medika Cikarang;Cikarang;dr. Maya Kurniawati;TBC;114;2026
+73;RSUD Bekasi;Bekasi Timur;dr. Lestari Dewi;Pneumonia;112;2026
+74;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Rio Nugroho;Pneumonia;112;2025
+75;RS Bhakti Kartini;Bekasi Barat;dr. Rio Nugroho;Pneumonia;101;2026
+76;RS Bhakti Kartini;Bekasi Barat;dr. Rio Nugroho;TBC;100;2022
+77;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Andi Saputra;TBC;140;2024
+78;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Rio Nugroho;Pneumonia;96;2025
+79;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Ahmad Fadhil;TBC;85;2024
+80;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Andi Saputra;Pneumonia;125;2026
+81;RS Bhakti Kartini;Bekasi Barat;dr. Lestari Dewi;Pneumonia;142;2026
+82;RS Harapan Mulia;Bekasi Selatan;dr. Andi Saputra;TBC;97;2022
+83;RS Sentra Medika Cikarang;Cikarang;dr. Maya Kurniawati;Pneumonia;125;2023
+84;RS Mitra Keluarga Bekasi Timur;Bekasi Timur;dr. Maya Kurniawati;TBC;81;2023
+85;RSUD Bekasi;Bekasi Timur;dr. Andi Saputra;TBC;127;2026
+86;RS Sentra Medika Cikarang;Cikarang;dr. Maya Kurniawati;Pneumonia;104;2026
+87;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Maya Kurniawati;TBC;115;2026
+88;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Andi Saputra;TBC;95;2025
+89;RS Bhakti Kartini;Bekasi Barat;dr. Lestari Dewi;Pneumonia;111;2024
+90;RSUD Bekasi;Bekasi Timur;dr. Maya Kurniawati;Pneumonia;101;2023
+91;RS Sentra Medika Cikarang;Cikarang;dr. Andi Saputra;TBC;149;2024
+92;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Ahmad Fadhil;Pneumonia;132;2025
+93;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Lestari Dewi;Pneumonia;147;2026
+94;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Rio Nugroho;Pneumonia;131;2026
+95;RS Sentra Medika Cikarang;Cikarang;dr. Lestari Dewi;Pneumonia;98;2022
+96;RS Bhakti Kartini;Bekasi Barat;dr. Lestari Dewi;Pneumonia;141;2022
+97;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Ahmad Fadhil;TBC;80;2023
+98;RS Mitra Keluarga Bekasi Timur;Bekasi Timur;dr. Andi Saputra;Pneumonia;80;2026
+99;RS Harapan Mulia;Bekasi Selatan;dr. Ahmad Fadhil;TBC;155;2023
+100;RS Bhakti Kartini;Bekasi Barat;dr. Ahmad Fadhil;TBC;108;2025
+101;RS Harapan Mulia;Bekasi Selatan;dr. Andi Saputra;TBC;141;2025
+102;RS Harapan Mulia;Bekasi Selatan;dr. Lestari Dewi;TBC;127;2026
+103;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Andi Saputra;TBC;102;2023
+104;RS Sentra Medika Cikarang;Cikarang;dr. Ahmad Fadhil;Pneumonia;131;2023
+105;RS Sentra Medika Cikarang;Cikarang;dr. Rio Nugroho;Pneumonia;80;2026
+106;RS Harapan Mulia;Bekasi Selatan;dr. Lestari Dewi;Pneumonia;159;2023
+107;RSUD Bekasi;Bekasi Timur;dr. Lestari Dewi;Pneumonia;103;2025
+108;RS Sentra Medika Cikarang;Cikarang;dr. Rio Nugroho;Pneumonia;112;2026
+109;RS Bhakti Kartini;Bekasi Barat;dr. Rio Nugroho;Pneumonia;146;2022
+110;RSUD Bekasi;Bekasi Timur;dr. Maya Kurniawati;TBC;108;2026
+111;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Maya Kurniawati;TBC;114;2022
+112;RS Sentra Medika Cikarang;Cikarang;dr. Ahmad Fadhil;Pneumonia;113;2024
+113;RSUD Bekasi;Bekasi Timur;dr. Lestari Dewi;Pneumonia;154;2026
+114;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Andi Saputra;Pneumonia;115;2023
+115;RS Harapan Mulia;Bekasi Selatan;dr. Andi Saputra;Pneumonia;128;2024
+116;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Maya Kurniawati;TBC;103;2026
+117;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Andi Saputra;Pneumonia;102;2022
+118;RS Bhakti Kartini;Bekasi Barat;dr. Andi Saputra;TBC;141;2025
+119;RSUD Bekasi;Bekasi Timur;dr. Ahmad Fadhil;Pneumonia;128;2025
+120;RS Mitra Keluarga Bekasi Barat;Bekasi Barat;dr. Ahmad Fadhil;Pneumonia;155;2022
