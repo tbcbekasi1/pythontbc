@@ -224,7 +224,9 @@ def run_all_analysis(df, out_dir):
 if __name__ == '__main__':
     app = create_app()
     app.run(
-        debug=(os.getenv('FLASK_ENV')=='production'),
+        debug=(os.getenv('FLASK_ENV')=='development'),
         host='0.0.0.0',
         port=int(os.getenv('PORT', 5000))
     )
+
+    # push railway
