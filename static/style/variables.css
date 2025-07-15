@@ -1,0 +1,26 @@
+:root {
+  /* Palet warna */
+  --clr-primary: #00695c;
+  --clr-secondary: #004d40;
+  --clr-accent: #f2a365;
+  --clr-bg: #f9f9f9;
+  --clr-bg-light: #ffffff;
+  --clr-text: #263238;
+  --clr-text-light: #546e7a;
+
+  /* Spacing */
+  --sp-xs: 0.5rem;
+  --sp-sm: 1rem;
+  --sp-md: 1.5rem;
+  --sp-lg: 2rem;
+  --sp-xl: 3rem;
+
+  /* Radius & shadow */
+  --radius: 0.5rem;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 4px 6px rgba(51, 13, 13, 0.08);
+  --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.06);
+
+  /* Transisi */
+  --transition: 0.3s ease;
+}

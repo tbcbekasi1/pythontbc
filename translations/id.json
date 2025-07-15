@@ -1,0 +1,60 @@
+{
+  "title": "Forum Kesehatan",
+  "Beranda": "Beranda",
+  "Informasi Publik": "Informasi Publik",
+  "Penanggulangan": "Penanggulangan",
+  "Kontak": "Kontak",
+  "Tentang Kami": "Tentang Kami",
+  "Kebijakan Privasi": "Kebijakan Privasi",
+  "Ketentuan Layanan": "Ketentuan Layanan",
+  "Bantuan": "Bantuan",
+  "Ikuti Kami": "Ikuti Kami",
+  "All rights reserved.": "Seluruh hak cipta dilindungi.",
+  "page_not_found": "Halaman Tidak Ditemukan",
+  "not_found_message": "Maaf, halaman yang Anda cari tidak ditemukan.",
+  "back_to_home": "Kembali ke Beranda",
+  "slides": [
+    {
+      "image": "slide1.jpg",
+      "title": "Selamat Datang di Forum Kesehatan",
+      "subtitle": "Dashboard Analisis TBC & Pneumonia Anak"
+    },
+    {
+      "image": "slide2.jpg",
+      "title": "Penanggulangan Penyakit Terpadu",
+      "subtitle": "Program Nasional Kesehatan"
+    },
+    {
+      "image": "slide3.jpg",
+      "title": "Layanan Kesehatan Digital",
+      "subtitle": "Platform Pelayanan Terintegrasi"
+    }
+  ],
+  "layanan_list": [
+    {
+      "icon": "fa-info-circle",
+      "title": "Informasi Publik",
+      "link": "informasi-publik"
+    },
+    {
+      "icon": "fa-stethoscope",
+      "title": "Penanggulangan Penyakit",
+      "link": "penanggulangan"
+    },
+    {
+      "icon": "fa-pills",
+      "title": "Farmasi & Alkes",
+      "link": "farmasi"
+    },
+    {
+      "icon": "fa-hospital",
+      "title": "Kebijakan Kesehatan",
+      "link": "kebijakan-kesehatan"
+    },
+    {
+      "icon": "fa-exclamation-triangle",
+      "title": "Pantauan Krisis",
+      "link": "pantauan-krisis"
+    }
+  ]
+}

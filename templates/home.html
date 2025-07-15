@@ -1,0 +1,36 @@
+{% extends 'base.html' %} {% block title %}Beranda – Forum Kesehatan{% endblock
+%} {% block content %}
+<section class="slider">
+  <div class="slides">
+    {% for slide in slides %}
+    <div class="slide" style="background-image: url('{{ slide.image }}');">
+      <h1>{{ slide.title }}</h1>
+      <p>{{ slide.subtitle }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  <button class="slider-btn-prev" aria-label="Slide sebelumnya">
+    <i class="fas fa-chevron-left"></i>
+  </button>
+  <button class="slider-btn-next" aria-label="Slide berikutnya">
+    <i class="fas fa-chevron-right"></i>
+  </button>
+  <div class="slider-dots">
+    {% for i in range(slides|length) %}
+    <button
+      class="{% if loop.first %}active{% endif %}"
+      data-index="{{ i }}"
+    ></button>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="layanan">
+  {% for layanan in layanan_list %}
+  <a href="{{ layanan.link }}" class="card">
+    <i class="fa-solid {{ layanan.icon }}"></i>
+    <span class="card-title">{{ layanan.title }}</span>
+  </a>
+  {% endfor %}
+</section>
+{% endblock %}

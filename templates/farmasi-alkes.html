@@ -1,0 +1,82 @@
+{% extends 'base.html' %} {% block title %}Farmasi & Alkes – Forum Kesehatan{%
+endblock %} {% block content %}
+<section class="hero">
+  <div class="container">
+    <h1 class="hero-title">Farmasi & Alat Kesehatan</h1>
+    <p class="hero-subtitle">
+      Menyediakan informasi dan pengelolaan logistik farmasi serta alat
+      kesehatan untuk mendukung layanan kesehatan berkualitas.
+    </p>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="section-title">Fokus Layanan</h2>
+    <div class="grid grid-3 gap-lg">
+      <article class="card">
+        <h3 class="card-title">1. Distribusi Obat</h3>
+        <ul class="list-checked">
+          <li>Pengelolaan stok & pengiriman menggunakan e-Logistik</li>
+          <li>Integrasi sistem logistik daerah (SIMLLOG)</li>
+          <li>Monitoring rantai pasok obat berbasis SIPO</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3 class="card-title">2. Alat Kesehatan</h3>
+        <ul class="list-checked">
+          <li>Pengadaan melalui e-Katalog LKPP</li>
+          <li>Penggunaan TKDN dalam prioritas belanja Alkes</li>
+          <li>Pemeliharaan & kalibrasi melalui SIMONA</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3 class="card-title">3. Keamanan Produk</h3>
+        <ul class="list-checked">
+          <li>Pengawasan mutu oleh BPOM</li>
+          <li>Registrasi produk via sistem e-Registration</li>
+          <li>Pelaporan efek samping (e-MESO & SIGAP)</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="section-title">Aplikasi & Sistem Pendukung</h2>
+    <ul class="list-checked">
+      <li>
+        <strong>SIPO:</strong> Sistem Informasi Pemantauan Obat Nasional untuk
+        memantau distribusi & stok
+      </li>
+      <li>
+        <strong>e-Katalog:</strong> Digunakan oleh faskes & pemda untuk
+        pengadaan transparan
+      </li>
+      <li>
+        <strong>SIMONA:</strong> Sistem Monitoring Nasional untuk pemeliharaan &
+        inventaris Alkes
+      </li>
+      <li><strong>e-SDMK:</strong> Pendataan tenaga kefarmasian nasional</li>
+      <li>
+        <strong>Dashboard Alkes:</strong> Analisis data ketersediaan alat
+        kesehatan di seluruh fasilitas
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="cta" class="bg-primary text-center">
+  <div class="container py-5">
+    <h2 class="section-title text-white">Ada Pertanyaan atau Kendala?</h2>
+    <p class="text-white">
+      Hubungi kami untuk informasi seputar logistik farmasi dan alat kesehatan.
+    </p>
+    <br />
+    <a href="{{ url_for('kontak') }}" class="btn btn-outline-light mt-2">
+      Hubungi Sekarang
+    </a>
+  </div>
+</section>
+{% endblock %}

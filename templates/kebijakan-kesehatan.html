@@ -1,0 +1,57 @@
+{% extends 'base.html' %} {% block title %}Kebijakan Kesehatan – Forum
+Kesehatan{% endblock %} {% block content %}
+<section class="hero">
+  <div class="container">
+    <h1 class="hero-title">Kebijakan Kesehatan</h1>
+    <p class="hero-subtitle">
+      Landasan regulasi dan strategi nasional dalam meningkatkan sistem
+      kesehatan Indonesia.
+    </p>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="section-title">Bidang Utama</h2>
+    <div class="grid grid-3 gap-lg">
+      <article class="card">
+        <h3 class="card-title">1. Regulasi & Standar</h3>
+        <ul class="list-checked">
+          <li>UU No.17 Tahun 2023 tentang Kesehatan</li>
+          <li>Permenkes No. 24 Tahun 2022 tentang Rekam Medis Elektronik</li>
+          <li>Pedoman pelayanan minimal & standar akreditasi faskes</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3 class="card-title">2. Pembiayaan Kesehatan</h3>
+        <ul class="list-checked">
+          <li>Penguatan JKN melalui integrasi vertikal & horizontal</li>
+          <li>Penerapan kapitasi berbasis kinerja di puskesmas</li>
+          <li>Pendanaan inovatif melalui Dana BOK & Dana Alokasi Khusus</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3 class="card-title">3. Inovasi & Transformasi</h3>
+        <ul class="list-checked">
+          <li>Sistem SATUSEHAT untuk integrasi data pasien</li>
+          <li>Peningkatan layanan primer berbasis komunitas</li>
+          <li>Penguatan surveilans epidemiologi digital</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="cta" class="bg-primary text-center">
+  <div class="container py-5">
+    <h2 class="section-title text-white">Cari Kebijakan Terkini?</h2>
+    <p class="text-white">
+      Lihat dokumen resmi dan kebijakan terbaru dari Kemenkes RI.
+    </p>
+    <br />
+    <a href="{{ url_for('kontak') }}" class="btn btn-outline-light mt-2">
+      Hubungi Kami
+    </a>
+  </div>
+</section>
+{% endblock %}

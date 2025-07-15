@@ -1,0 +1,31 @@
+
+---
+
+## 🛑 `.gitignore`
+
+```gitignore
+# Virtual environment
+venv/
+.env
+.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Data
+*.csv
+!data/*.csv  # jika kamu ingin commit file tertentu
+
+# Logs and others
+*.log
+*.sqlite3
+
+# VSCode and system files
+.vscode/
+.DS_Store
+Thumbs.db

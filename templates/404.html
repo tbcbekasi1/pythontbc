@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% block title %}404 - Halaman Tidak Ditemukan{%
+endblock %} {% block content %}
+<div class="not-found" style="text-align: center; padding: 3rem">
+  <h1 style="font-size: 3rem; color: var(--clr-secondary)">
+    {{ _('page_not_found') }}
+  </h1>
+  <p style="font-size: 1.25rem; color: var(--clr-text-light)">
+    {{ _('not_found_message') }}
+  </p>
+  <a
+    href="{{ url_for('index') }}"
+    style="color: var(--clr-primary); font-weight: bold"
+  >
+    {{ _('back_to_home') }}
+  </a>
+</div>
+{% endblock %}

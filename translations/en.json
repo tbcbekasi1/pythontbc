@@ -1,0 +1,60 @@
+{
+  "title": "Health Forum",
+  "Beranda": "Home",
+  "Informasi Publik": "Public Information",
+  "Penanggulangan": "Disease Control",
+  "Kontak": "Contact",
+  "Tentang Kami": "About Us",
+  "Kebijakan Privasi": "Privacy Policy",
+  "Ketentuan Layanan": "Terms of Service",
+  "Bantuan": "Help",
+  "Ikuti Kami": "Follow Us",
+  "All rights reserved.": "All rights reserved.",
+  "page_not_found": "Page Not Found",
+  "not_found_message": "Sorry, the page you're looking for cannot be found.",
+  "back_to_home": "Back to Home",
+  "slides": [
+    {
+      "image": "slide1.jpg",
+      "title": "Welcome to Health Forum",
+      "subtitle": "TBC & Child Pneumonia Analysis Dashboard"
+    },
+    {
+      "image": "slide2.jpg",
+      "title": "Integrated Disease Control",
+      "subtitle": "National Health Program"
+    },
+    {
+      "image": "slide3.jpg",
+      "title": "Digital Health Services",
+      "subtitle": "Integrated Health Platform"
+    }
+  ],
+  "layanan_list": [
+    {
+      "icon": "fa-info-circle",
+      "title": "Public Information",
+      "link": "informasi-publik"
+    },
+    {
+      "icon": "fa-stethoscope",
+      "title": "Disease Control",
+      "link": "penanggulangan"
+    },
+    {
+      "icon": "fa-pills",
+      "title": "Pharmacy & Equipment",
+      "link": "farmasi"
+    },
+    {
+      "icon": "fa-hospital",
+      "title": "Health Policy",
+      "link": "kebijakan-kesehatan"
+    },
+    {
+      "icon": "fa-exclamation-triangle",
+      "title": "Crisis Monitoring",
+      "link": "pantauan-krisis"
+    }
+  ]
+}

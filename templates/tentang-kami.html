@@ -1,0 +1,94 @@
+{% extends 'base.html' %} {% block title %}Tentang Kami – Forum Kesehatan{%
+endblock %} {% block content %}
+
+<section class="hero">
+  <div class="container">
+    <h1 class="hero-title">Tentang Forum Kesehatan</h1>
+    <p class="hero-subtitle">
+      Kami hadir sebagai platform informasi dan edukasi untuk mendukung sistem
+      kesehatan yang lebih baik di Indonesia.
+    </p>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="section-title">Visi & Misi</h2>
+    <div class="grid grid-2 gap-lg">
+      <div>
+        <h3 class="card-title">Visi</h3>
+        <p>
+          Menjadi pusat informasi kesehatan digital yang transparan, terpercaya,
+          dan mudah diakses oleh seluruh masyarakat.
+        </p>
+      </div>
+      <div>
+        <h3 class="card-title">Misi</h3>
+        <ul class="list-checked">
+          <li>Menyediakan data dan informasi kesehatan berbasis bukti</li>
+          <li>Mendukung transformasi sistem kesehatan melalui teknologi</li>
+          <li>Memberdayakan masyarakat melalui edukasi kesehatan</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="section-title">Apa yang Kami Lakukan?</h2>
+    <ul class="list-checked">
+      <li>Mengembangkan dashboard analisis penyakit seperti TBC & Pneumonia</li>
+      <li>
+        Menampilkan data publik dari berbagai sumber resmi seperti Kemenkes,
+        BPJS, dan BPOM
+      </li>
+      <li>
+        Menyediakan akses ke informasi kebijakan, logistik farmasi, dan krisis
+        kesehatan
+      </li>
+      <li>
+        Berkoordinasi dengan instansi untuk penyuluhan dan peningkatan literasi
+        digital kesehatan
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="section-title">Tim Kami</h2>
+    <div class="grid grid-3 gap-lg">
+      <article class="card">
+        <i class="fa-solid fa-user-doctor"></i>
+        <h3 class="card-title">Dr. Tirta</h3>
+        <p>Pakar Kesehatan Masyarakat & Konsultan WHO</p>
+      </article>
+      <article class="card">
+        <i class="fa-solid fa-laptop-code"></i>
+        <h3 class="card-title">Ryvins</h3>
+        <p>Lead Developer & Integrator Data Kesehatan</p>
+      </article>
+      <article class="card">
+        <i class="fa-solid fa-chart-line"></i>
+        <h3 class="card-title">Steven Lie</h3>
+        <p>Analis Data & Spesialis Dashboard Epidemiologi</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="cta" class="bg-primary text-center">
+  <div class="container py-5">
+    <h2 class="section-title text-white">Ingin Tahu Lebih Lanjut?</h2>
+    <p class="text-white">
+      Hubungi tim kami untuk kolaborasi atau pertanyaan seputar platform.
+    </p>
+    <br />
+    <a href="{{ url_for('kontak') }}" class="btn btn-outline-light mt-2"
+      >Hubungi Kami</a
+    >
+  </div>
+</section>
+
+{% endblock %}

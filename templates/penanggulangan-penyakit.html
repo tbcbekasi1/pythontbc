@@ -1,0 +1,103 @@
+{% extends 'base.html' %} {% block title %}Penanggulangan Penyakit – Forum
+Kesehatan{% endblock %} {% block content %}
+<!-- Hero Section -->
+<section class="hero bg-light">
+  <div class="container">
+    <h1 class="hero-title">Penanggulangan Penyakit</h1>
+    <p class="hero-subtitle">
+      Upaya bersama untuk mencegah, mendeteksi, dan mengendalikan penyebaran
+      penyakit demi kesehatan optimal masyarakat.
+    </p>
+    <a href="#strategi" class="btn btn-primary">Pelajari Lebih Lanjut</a>
+  </div>
+</section>
+
+<!-- Strategi Utama -->
+<section id="strategi" class="py-5">
+  <div class="container">
+    <h2 class="section-title">Strategi Utama</h2>
+    <div class="grid grid-3 gap-lg">
+      <article class="card">
+        <h3 class="card-title">1. Pencegahan</h3>
+        <ul class="list-checked">
+          <li>Imunisasi lengkap sesuai jadwal</li>
+          <li>Kampanye hidup bersih & pola makan sehat</li>
+          <li>Pemantauan dan sanitasi lingkungan</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3 class="card-title">2. Deteksi Dini</h3>
+        <ul class="list-checked">
+          <li>Screening dan skrining berkala</li>
+          <li>Pemeriksaan laboratorium & radiologi</li>
+          <li>Pusat layanan kesehatan terdekat</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3 class="card-title">3. Pengendalian</h3>
+        <ul class="list-checked">
+          <li>Pengobatan terstandar (DOTS untuk TBC)</li>
+          <li>Isolasi kasus menular di fasilitas kesehatan</li>
+          <li>Pemantauan kontak erat (tracing)</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Program Edukasi -->
+<section id="edukasi" class="bg-light py-5">
+  <div class="container">
+    <h2 class="section-title">Program Edukasi &amp; Sosialisasi</h2>
+    <p>Memberikan informasi praktis kepada masyarakat dan tenaga kesehatan:</p>
+    <ul class="list-checked">
+      <li>Workshop kesehatan masyarakat di desa/kecamatan</li>
+      <li>Video tutorial pencegahan TBC &amp; Pneumonia</li>
+      <li>Brosur &amp; poster di fasilitas umum</li>
+    </ul>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="py-5">
+  <div class="container">
+    <h2 class="section-title">Pertanyaan Umum (FAQ)</h2>
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header" type="button">
+          Apa itu <strong>DOTS</strong> dalam pengobatan TBC?
+        </button>
+        <div class="accordion-body">
+          DOTS (Directly Observed Treatment, Short-course) adalah standar
+          pengobatan TBC di mana pasien diawasi langsung saat mengonsumsi obat
+          untuk memastikan kepatuhan.
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-header" type="button">
+          Bagaimana cara deteksi dini Pneumonia pada anak?
+        </button>
+        <div class="accordion-body">
+          Tanda-tandanya: demam tinggi, nafas cepat, sesak, batuk berat. Segera
+          periksakan ke fasilitas kesehatan jika muncul gejala tersebut.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action -->
+<section id="cta" class="bg-primary text-center py-5">
+  <div class="container">
+    <h2 class="section-title text-white">Butuh Bantuan atau Info Lanjut?</h2>
+    <p class="text-white">
+      Hubungi hotline Kemenkes di <strong>1500-567</strong> atau kunjungi
+      puskesmas terdekat.
+    </p>
+    <br />
+    <a href="{{ url_for('kontak') }}" class="btn btn-outline-light mt-2">
+      Kontak Kami
+    </a>
+  </div>
+</section>
+{% endblock %}

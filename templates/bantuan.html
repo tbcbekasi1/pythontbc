@@ -1,0 +1,35 @@
+{% extends 'base.html' %} {% block title %}Pusat Bantuan – Forum Kesehatan{%
+endblock %} {% block content %}
+<section class="hero">
+  <div class="container">
+    <h1 class="hero-title">Pusat Bantuan</h1>
+    <p class="hero-subtitle">
+      Kami siap membantu Anda mengakses informasi kesehatan dengan mudah.
+    </p>
+  </div>
+</section>
+
+<section class="py-5 container content-section">
+  <h2>Pertanyaan yang Sering Diajukan</h2>
+  <ul class="list-checked">
+    <li>
+      <strong>Bagaimana cara melihat data TBC nasional?</strong><br />Silakan
+      buka menu “Informasi Publik” untuk akses data lengkap.
+    </li>
+    <li>
+      <strong>Apa itu dashboard analisis?</strong><br />Merupakan fitur
+      visualisasi data kesehatan berbasis grafik & clustering.
+    </li>
+    <li>
+      <strong>Apakah saya bisa mengunduh data?</strong><br />Hubungi kami
+      melalui halaman kontak untuk akses unduhan resmi.
+    </li>
+  </ul>
+
+  <h2>Kontak Langsung</h2>
+  <p>
+    Jika Anda tidak menemukan jawaban, silakan kirim pertanyaan melalui halaman
+    <a href="{{ url_for('kontak') }}">Kontak Kami</a>.
+  </p>
+</section>
+{% endblock %}

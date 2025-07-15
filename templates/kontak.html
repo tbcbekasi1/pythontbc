@@ -1,0 +1,68 @@
+{% extends 'base.html' %} {% block title %}Kontak Kami – Forum Kesehatan{%
+endblock %} {% block content %}
+<div class="content-section kontak-page">
+  <h1>Kontak Kami</h1>
+  <p class="lead">
+    Ada pertanyaan, masukan, atau butuh bantuan lebih lanjut? Hubungi kami di:
+  </p>
+
+  <div class="contact-info">
+    <div class="info-item">
+      <i class="fas fa-envelope"></i>
+      <div>
+        <h3>Email</h3>
+        <a href="mailto:info@forumkesehatan.id">info@forumkesehatan.id</a>
+      </div>
+    </div>
+    <div class="info-item">
+      <i class="fas fa-phone-alt"></i>
+      <div>
+        <h3>Telepon</h3>
+        <a href="tel:+622112345678">+62 21 1234 5678</a>
+      </div>
+    </div>
+    <div class="info-item">
+      <i class="fas fa-map-marker-alt"></i>
+      <div>
+        <h3>Alamat</h3>
+        <p>Jl. Kesehatan No.10, Bekasi, Jawa Barat</p>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="mt-5">Kirim Pesan</h2>
+  <form class="contact-form" method="post" action="">
+    <div class="form-group">
+      <label for="name">Nama Lengkap</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Masukkan nama Anda"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="email">Alamat Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="contoh@domain.com"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="message">Pesan Anda</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        placeholder="Tulis pesan Anda di sini…"
+        required
+      ></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Kirim Pesan</button>
+  </form>
+</div>
+{% endblock %}

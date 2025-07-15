@@ -1,0 +1,67 @@
+{% extends 'base.html' %} {% block title %}Informasi Publik – Forum Kesehatan{%
+endblock %} {% block content %}
+<div class="content-section">
+  <!-- Ringkasan -->
+  <div class="summary-metrics">
+    <h2>Ringkasan Data TBC</h2>
+    {% if summary %}
+    <p class="total-cases">
+      <strong>Total Kasus:</strong> {{ summary.total_cases }}
+    </p>
+    {% else %}
+    <p class="text-center">Data ringkasan tidak tersedia.</p>
+    {% endif %}
+  </div>
+
+  <!-- Tabel dengan pagination -->
+  <div class="data-table">
+    <h2>Data Kasus TBC per Wilayah & Tahun</h2>
+    {% if data %}
+    <table id="tbcTable">
+      <thead>
+        <tr>
+          <th>Tahun</th>
+          <th>Wilayah</th>
+          <th>Jumlah Kasus</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in data %}
+        <tr>
+          <td>{{ row.Tahun }}</td>
+          <td>{{ row.Wilayah }}</td>
+          <td>{{ row['Jumlah Kasus'] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <div id="paginationControls"></div>
+    {% else %}
+    <p class="text-center">Data kasus TBC belum tersedia.</p>
+    {% endif %}
+  </div>
+
+  <!-- Hasil Analisis -->
+  <div class="analysis-results">
+    <h2>Hasil Analisis</h2>
+    <div class="analysis-charts">
+      <div class="chart-block">
+        <h3>1. Bar Chart</h3>
+        <img src="{{ plots.bar }}" alt="Bar Chart Total Kasus" />
+      </div>
+      <div class="chart-block">
+        <h3>2. Heatmap Korelasi</h3>
+        <img src="{{ plots.corr }}" alt="Heatmap Korelasi" />
+      </div>
+      <div class="chart-block">
+        <h3>3. Heatmap Tahun–Penyakit</h3>
+        <img src="{{ plots.year_disease }}" alt="Heatmap Tahun–Penyakit" />
+      </div>
+      <div class="chart-block">
+        <h3>4. Cluster Plot</h3>
+        <img src="{{ plots.kmeans }}" alt="Cluster Plot" />
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

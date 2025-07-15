@@ -1,0 +1,76 @@
+{% extends 'base.html' %} {% block title %}Pantauan Krisis – Forum Kesehatan{%
+endblock %} {% block content %}
+<section class="hero">
+  <div class="container">
+    <h1 class="hero-title">Pantauan Krisis Kesehatan</h1>
+    <p class="hero-subtitle">
+      Informasi real-time dan respons cepat terhadap krisis kesehatan nasional
+      dan daerah.
+    </p>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="section-title">Jenis Krisis yang Dipantau</h2>
+    <div class="grid grid-3 gap-lg">
+      <article class="card">
+        <h3 class="card-title">1. Wabah Penyakit</h3>
+        <ul class="list-checked">
+          <li>COVID-19, DBD, TBC, Polio</li>
+          <li>SIGIM: Sistem Informasi Global untuk Monitoring Penyakit</li>
+          <li>Koordinasi KLB melalui Crisis Center</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3 class="card-title">2. Bencana Alam</h3>
+        <ul class="list-checked">
+          <li>Gempa bumi, banjir, tanah longsor</li>
+          <li>Tim Gerak Cepat (TGC) dan tenaga medis lapangan</li>
+          <li>Logistik kesehatan tanggap darurat</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3 class="card-title">3. Krisis Gizi & Lingkungan</h3>
+        <ul class="list-checked">
+          <li>Stunting, gizi buruk, anemia</li>
+          <li>Pemantauan kualitas air dan udara</li>
+          <li>Program Gerakan Masyarakat Hidup Sehat (Germas)</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="bg-light py-5">
+  <div class="container">
+    <h2 class="section-title">Sistem Pemantauan</h2>
+    <ul class="list-checked">
+      <li>
+        <strong>SKDR:</strong> Sistem Kewaspadaan Dini & Respons berbasis web
+        dan mobile
+      </li>
+      <li>
+        <strong>Dinkes Online:</strong> Platform pelaporan situasi dari seluruh
+        provinsi
+      </li>
+      <li><strong>Hotline 119:</strong> Layanan gawat darurat nasional 24/7</li>
+      <li>
+        <strong>Posko Kesehatan Bencana:</strong> Posko lapangan saat krisis
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="cta" class="bg-primary text-center">
+  <div class="container py-5">
+    <h2 class="section-title text-white">Laporkan Krisis Kesehatan</h2>
+    <p class="text-white">
+      Gunakan kanal resmi untuk pelaporan cepat dan respons tanggap.
+    </p>
+    <a href="{{ url_for('kontak') }}" class="btn btn-outline-light mt-2">
+      Laporkan Sekarang
+    </a>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Forum Kesehatan{% endblock %}</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style/style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='images/favicon.ico') }}"
+    />
+
+    {% block head %}{% endblock %}
+  </head>
+  <body>
+    <div id="toastContainer" class="toast-container"></div>
+    <header>
+      <div class="container head-container">
+        <div class="logo">{{ _('title') }}</div>
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <nav>
+          <a
+            href="{{ url_for('index') }}"
+            class="{% if request.endpoint=='index' %}active{% endif %}"
+            >{{ _('Beranda') }}</a
+          >
+          <a
+            href="{{ url_for('informasi_publik') }}"
+            class="{% if request.endpoint=='informasi_publik' %}active{% endif %}"
+            >{{ _('Informasi Publik') }}</a
+          >
+          <a
+            href="{{ url_for('penanggulangan') }}"
+            class="{% if request.endpoint=='penanggulangan' %}active{% endif %}"
+            >{{ _('Penanggulangan') }}</a
+          >
+          <a
+            href="{{ url_for('kontak') }}"
+            class="{% if request.endpoint=='kontak' %}active{% endif %}"
+            >{{ _('Kontak') }}</a
+          >
+          <div
+            id="langSelector"
+            class="language-selector"
+            tabindex="0"
+            aria-expanded="false"
+          >
+            <span id="selectedLangText">
+              {{ session['lang']|upper if session['lang'] else 'ID' }}
+              <i class="fas fa-chevron-down"></i>
+            </span>
+            <ul id="langDropdown" class="dropdown">
+              <li tab-index="0">
+                <a
+                  class="lang-select"
+                  href="{{ url_for('set_language', lang_code='en', next=request.path) }}"
+                  >EN</a
+                >
+              </li>
+              <li tab-index="0">
+                <a
+                  class="lang-select"
+                  href="{{ url_for('set_language', lang_code='id', next=request.path) }}"
+                  >ID</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">{% block content %}{% endblock %}</div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-links">
+          <h4>Forum</h4>
+          <ul>
+            <li><a href="{{ url_for('index') }}">{{ _('Beranda') }}</a></li>
+            <li>
+              <a href="{{ url_for('informasi_publik') }}"
+                >{{ _('Informasi Publik') }}</a
+              >
+            </li>
+            <li>
+              <a href="{{ url_for('penanggulangan') }}"
+                >{{ _('Penanggulangan') }}</a
+              >
+            </li>
+            <li><a href="{{ url_for('kontak') }}">{{ _('Kontak') }}</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Informasi</h4>
+          <ul>
+            <li>
+              <a href="{{ url_for('tentang_kami') }}"
+                >{{ _('Tentang Kami') }}</a
+              >
+            </li>
+            <li>
+              <a href="{{ url_for('kebijakan_privasi') }}"
+                >{{ _('Kebijakan Privasi') }}</a
+              >
+            </li>
+            <li>
+              <a href="{{ url_for('ketentuan_layanan') }}"
+                >{{ _('Ketentuan Layanan') }}</a
+              >
+            </li>
+            <li><a href="{{ url_for('bantuan') }}">{{ _('Bantuan') }}</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>{{ _('Ikuti Kami') }}</h4>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <p>&copy; 2025 {{ _('title') }}. {{ _('All rights reserved.') }}</p>
+      </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/bahasa.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/slide.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/menu.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/tbc.js') }}"></script>
+    {% block scripts %}{% endblock %}
+  </body>
+</html>

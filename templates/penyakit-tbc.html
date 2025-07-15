@@ -1,0 +1,29 @@
+{% extends 'base.html' %} {% block title %}Penyakit TBC - Forum Kesehatan{%
+endblock %} {% block head %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/Informasi.css') }}"
+/>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/tbc.css') }}" />
+{% endblock %} {% block content %}
+<main class="content-section">
+  <h1>Tuberculosis (TBC)</h1>
+
+  <section class="hero-section">
+    <h2 class="hero-title">Dashboard Analisis Penyakit TBC</h2>
+    <p class="hero-subtitle">
+      Visualisasi data, tren, dan faktor risiko Tuberculosis (TBC) guna
+      mendukung pengambilan keputusan kesehatan.
+    </p>
+    <button id="runAnalysisBtn" class="btn-primary" onclick="runAnalysis()">
+      Jalankan Analisis
+    </button>
+    <div id="analysisResults"></div>
+  </section>
+</main>
+{% endblock %} {% block scripts %}
+<script src="{{ url_for('static', filename='js/slide.js') }}"></script>
+<script src="{{ url_for('static', filename='js/bahasa.js') }}"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<script src="{{ url_for('static', filename='js/tbc.js') }}"></script>
+{% endblock %}
