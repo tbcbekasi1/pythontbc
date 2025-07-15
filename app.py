@@ -67,7 +67,7 @@ def create_app():
         slides_raw = translations.get("slides", [])
         slides = [
             {
-                "image": url_for('static', filename="images/" + slide.get("image")),
+                "image": f"https://web-production-ce4b6.up.railway.app/static/images/" + slide.get("image"),
                 "title": slide.get("title"),
                 "subtitle": slide.get("subtitle")
             }
@@ -97,10 +97,10 @@ def create_app():
 
         # 5) Build plot URLs
         plots = {
-            'bar': url_for('static', filename='plots/bar_total_per_disease.png'),
-            'corr': url_for('static', filename='plots/heatmap_corr.png'),
-            'year_disease': url_for('static', filename='plots/heatmap_year_disease.png'),
-            'kmeans': url_for('static', filename='plots/kmeans_cluster.png'),
+            'bar': 'https://web-production-ce4b6.up.railway.app/static/plots/bar_total_per_disease.png',
+            'corr': 'https://web-production-ce4b6.up.railway.app/static/plots/heatmap_corr.png',
+            'year_disease': 'https://web-production-ce4b6.up.railway.app/static/plots/heatmap_year_disease.png',
+            'kmeans': 'https://web-production-ce4b6.up.railway.app/static/plots/kmeans_cluster.png',
         }
 
         return render_template(
