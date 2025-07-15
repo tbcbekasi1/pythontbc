@@ -55,7 +55,7 @@
             aria-expanded="false"
           >
             <span id="selectedLangText">
-              {{ session['lang']|upper if session['lang'] else 'ID' }}
+              {{ session.get('lang', 'id')|upper }}
               <i class="fas fa-chevron-down"></i>
             </span>
             <ul id="langDropdown" class="dropdown">
