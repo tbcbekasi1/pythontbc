@@ -67,7 +67,7 @@ def create_app():
         slides_raw = translations.get("slides", [])
         slides = [
             {
-                "image": f"https://web-production-ce4b6.up.railway.app/static/images/" + slide.get("image"),
+                "image": f"https://infotbcbekasi.site/static/images/" + slide.get("image"),
                 "title": slide.get("title"),
                 "subtitle": slide.get("subtitle")
             }
@@ -97,10 +97,10 @@ def create_app():
 
         # 5) Build plot URLs
         plots = {
-            'bar': 'https://web-production-ce4b6.up.railway.app/static/plots/bar_total_per_disease.png',
-            'corr': 'https://web-production-ce4b6.up.railway.app/static/plots/heatmap_corr.png',
-            'year_disease': 'https://web-production-ce4b6.up.railway.app/static/plots/heatmap_year_disease.png',
-            'kmeans': 'https://web-production-ce4b6.up.railway.app/static/plots/kmeans_cluster.png',
+            'bar': 'https://infotbcbekasi.site/static/plots/bar_total_per_disease.png',
+            'corr': 'https://infotbcbekasi.site/static/plots/heatmap_corr.png',
+            'year_disease': 'https://infotbcbekasi.site/static/plots/heatmap_year_disease.png',
+            'kmeans': 'https://infotbcbekasi.site/static/plots/kmeans_cluster.png',
         }
 
         return render_template(
